@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+
+/* General - Start */
+
+*{
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+}
+
+body{
+  /*background-image: url(bkg-blu.jpg);*/
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(90deg, #6ff, #36f);
+}
+
+/* Scroll bar - Start*/
+.scroll{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(223, 45, 45);
+  border-radius: 50px;
+  position: fixed;
+  bottom: 10px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll i{
+  font-size: 30px;
+  color: white;
+}
+
+/* Scroll bar - End */
+
+/* General - End */
+
+/* Header - Start */
+
+header{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  background-color: #000;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  z-index: 1000;
+}
+
+header *{
+  color: #fff;
+  
+}
+
+header ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.logo{
+  font-size: 22px;
+  margin: auto 10%;
+}
+
+header ul li{
+  font-size: 18px;
+  margin: auto;
+  margin-left: 30px;
+}
+
+header ul:last-child{
+  
+  margin-right: 5%;
+}
+
+header ul a{
+  text-decoration: none;
+}
+
+/* Header - End */
+
+/* Main */
+
+#main{
+  background-color: aliceblue;
+  max-width: 900px;
+  height: 100%;
+  margin: 0 auto; 
+  margin-bottom: 5px;
+  border-radius: 15px;
+  box-shadow: 9px 9px 2px 1px rgba(0, 0, 255, .2);
+}
+
+/* Nav Bar */
+
+.nav a{
+  background-color: rgb(0, 140, 255);
+  color: #fff;
+  text-align: center;
+  padding: 4px;
+  width: 24%;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: auto auto;
+}
+
+.nav{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Nav bar end */
+
+/* Marguee Start*/
+marquee{
+  display: block;
+  height: 30px;
+  background: linear-gradient(90deg, rgb(72, 152, 255), rgb(0, 64, 255));
+}
+
+marquee a{
+  display: block;
+  margin-top: 5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+marquee a:hover{
+  color: #e5ff00;
+}
+
+/* Marguee End*/
+
+.title{
+  text-align: center;
+}
+.Home p{
+  background: linear-gradient(90deg, gold, rgb(0, 255, 76));
+  font-size: 1.5em;
+  height: 80px;
+  text-align: center;
+}
+
+.hints{
+  font-size: 1.5em;
+  margin: 5px auto;
+  width: 45%;
+  text-align: center;
+  border: 3px solid #fff;
+  padding: 4px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #6ff, rgb(69, 115, 253));
+  color: #fff;
+}
+
+.hints:after{
+  content: '';
+  display: block;
+  width: 25%;
+  margin: auto;
+  background-color: #fff;
+  height: 3px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+img:hover{
+  border-radius: 70px;
+}
+
+h1{
+  text-align: center;
+}
+
+a:hover{
+  color: #e5ff00;
+}
+
+h2{
+  text-align: justify;
+  padding: 0 10px;
+}
+
+#ds{
+  width: 500px;
+  height: 450px;
+}
+
+ol{
+  font-size: 25px;
+}
+
+#ds1{
+  width: 500px;
+  height: 300px;
+}
+
+#ds2
+{
+  width: 500px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.head{
+  width: 100%;
+  height: 300px;
+}
+
+.button{
+  display: block;
+  background-color: rgb(0, 140, 255);
+  color: #fff;
+  padding: 8px;
+  margin: 0 auto;
+  text-decoration:none;
+  text-align: center;
+  width: 35%;
+  border-radius: 10px;
+}
+
+.list-contacts a{
+  text-decoration: none;
+  color:rgb(0, 153, 255);
+}
+
+.list-contacts a:hover{
+  color: rgb(68, 0, 255)
+}
+
+.paddin-end{
+  width: 100%;
+  height: 10px;
+}
+
+hr{
+  display: block;
+  height: 2px;
+}
+/* Main End */
